@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="maths" />
+  <meta charset="utf-8">
+<script language='javascript' type='text/javascript' src='script.js'></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>PHOTON 7</title>
+</head>
+  <body>
+    
+      
+    <h1>PHOTON <span id="spn_seven">7</span></h1>  
+    <h3>CIRCLE</h3>
+    <h3>Circumference</h3>
+      <select id='circ_given_type'>
+        <option value='radius'>radius</options>
+        <option value='diameter'>diameter</options>
+      </select>
+      <select id='circ_measurement'>
+        <option value='km'>km</option>
+        <option value='ft'>ft</option>
+      </select>
+    <p id='para'>result: </p>
+    <input id='circ_txb' type='text' value='' />
+    <input id='get' type='button' value='get Circumference' onclick='getCirc(document.getElementById("circ_txb").value)' />
+    
+    <div>
+      <h3>Area</h3>
+      <p id='enter_area' >enter radius</p>
+      <input id='area_txb' type='text' value='' />
+      <input id='getArea_btn' type='button' value='get Area' onclick='getArea(document.getElementById("area_txb").value)'>
+    </div>
+    
+</body>
+</html>

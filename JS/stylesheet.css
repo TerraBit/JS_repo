@@ -1,0 +1,27 @@
+body{
+	background-color: #ffffff;
+	background: linear-gradient(to bottom, #ffffff, #333333);
+
+}
+
+h1{
+	color: #999999;
+	font-family: Prometheus;
+	font-size: 100dp;
+}
+#spn_seven{
+	color: #009999;
+	font-family: Prometheus;
+	font-size: 150sp;
+}
+
+h3{
+	font-family: Verdana;
+	color: #009999;
+}
+
+select{
+	font-family: Verdana;
+	color: #009999;
+	
+}
